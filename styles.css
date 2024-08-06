@@ -368,6 +368,9 @@ header::after {
     border: none;
     outline: none;
    resize: none;
+   appearance: none;
+   -webkit-appearance: none;
+   box-sizing: border-box;
   }
   .input-btn input::placeholder {
     font-size: 12px;
