@@ -4,6 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeIcon = document.createElement('span');
     const yearElement = document.getElementById('year');
 yearElement.textContent = new Date().getFullYear();
+    document.addEventListener('touchstart', function(event) {
+    if (event.touches.length > 1) {
+        event.preventDefault();
+    }
+}, { passive: false });
 
     closeIcon.className = 'close-icon';
     closeIcon.textContent = '×';
