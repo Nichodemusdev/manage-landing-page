@@ -366,7 +366,8 @@ header::after {
     padding-left: 10px;
     border-radius: 20px;
     border: none;
-    outline-color: hsl(12, 88%, 59%);
+    outline: none;
+   resize: none;
   }
   .input-btn input::placeholder {
     font-size: 12px;
