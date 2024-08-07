@@ -485,7 +485,7 @@ header::after {
         }
         
         .header-nav-link {
-          padding: 0;
+          padding: 1rem 0;
         }
         
         header {
@@ -730,11 +730,7 @@ header::after {
         .section1-box1 h2 span {
           display: block;
         }
-        
-        .header-nav-link {
-          padding: 0;
-        }
-        
+         
         header {
           padding: 1rem;
           margin-bottom: 0;
