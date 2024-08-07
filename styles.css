@@ -759,7 +759,6 @@ header::after {
         .header-row {
           flex-direction: column-reverse;
           margin-top: 3rem;
-          overflow: visible;
         }
 
        .header-row .btn {
@@ -793,7 +792,6 @@ header::after {
           margin-bottom: 1rem;
           width: 100%;
           justify-content: center;
-          overflow: visible;
         }
         
         .illustration img {
