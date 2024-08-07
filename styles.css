@@ -514,7 +514,7 @@ header::after {
         }
 
        .header-row .btn {
-          display: block;
+          display: flex;
          }
         
         .head {
@@ -763,7 +763,7 @@ header::after {
         }
 
        .header-row .btn {
-          display: block;
+          display: flex;
          }
 
         .header-nav-link {
