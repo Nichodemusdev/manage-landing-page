@@ -510,7 +510,6 @@ header::after {
         .header-row {
           flex-direction: column-reverse;
           margin-top: 3rem;
-         overflow: visible;
         }
 
        .header-row .btn {
@@ -759,6 +758,7 @@ header::after {
         .header-row {
           flex-direction: column-reverse;
           margin-top: 3rem;
+         overflow-y: visible;
         }
 
        .header-row .btn {
@@ -772,6 +772,7 @@ header::after {
         .head {
           width: 100%;
           align-items: center;
+          overflow-y: visible;
         }
 
         .head h1 {
