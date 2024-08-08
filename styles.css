@@ -739,7 +739,8 @@ header::after {
         header {
           padding: 1rem;
           margin-bottom: 0;
-          overflow: hidden;
+          overflow-x: hidden;
+          overflow-y: visible;
         }
         
         header::before {
