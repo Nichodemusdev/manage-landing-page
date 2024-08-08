@@ -509,7 +509,7 @@ header::after {
         
         .header-row {
           flex-direction: column-reverse;
-          margin-top: 3rem;
+          margin-top: 1rem;
         }
 
        .header-row .btn {
