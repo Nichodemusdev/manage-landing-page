@@ -759,7 +759,7 @@ header::after {
         .header-row {
           flex-direction: column-reverse;
           margin-top: 3rem;
-         overflow: hidden;
+         overflow-y: visible;
           height: fit-content;
         }
 
@@ -774,7 +774,7 @@ header::after {
         .head {
           width: 100%;
           align-items: center;
-          overflow: hidden;
+          overflow-y: visible;
           height: fit-content;
         }
 
